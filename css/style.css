@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    font-family: "Rethink Sans", sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.intro-image
+{
+        background-attachment: fixed;
+        background-image: url('../img/pexels-pixabay-236311\ \(2\).jpg');
+        background-size: cover;
+        background-position: top;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+}
+
+.intro-image__text a {
+    background-color: #6b2319c6;
+    border: 0.3rem solid #6b2219;
+    color: #d8cf4c;
+    padding: 2rem;
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover
+{
+    transform: scale(1.1);
+}
+
+
+.intro-text
+{
+        margin-top: -2.5rem;
+        height: 250px;
+        background-color: #90988c;
+        color: #e4e8e9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 35rem;
+        clip-path: polygon(50% 15%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.intro-text__textbox h3
+{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.packaging-image
+{
+    background-attachment: fixed;
+    height: 40vh;
+    background-image: url(../img/pexels-pixabay-266442.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a
+{
+        background-color: #0c14128e;
+        border: 0.3rem solid #0c1412;
+        color: #5e7c9f;
+        padding: 2rem;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover
+{
+    transform: scale(1.1);
+}
+
+.packaging-text
+{
+    height: 250px;
+    background-color: #a75f47;
+    color: #e3ae72;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35rem;
+}
+
+.packaging_text__textbox h3
+{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.tutorials-image
+{
+    background-attachment: fixed;
+    height: 400px;
+    background-image: url(../img/pexels-kevin-malik-9032128\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a
+{
+    background-color: #a5725ac5;
+    border: 0.3rem solid #a5725a;
+    color: #999d9c;
+    padding: 2rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out
+}
+
+.tutorials-image__text a:hover
+{
+    transform: scale(1.1);
+}
+
+.footer
+{
+    background-color:#b6b5af ;
+    height: 12rem;
+    text-align: center;
+    color: #472c17;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #472c17;
+    text-decoration: none;
+}
+
+.footer ul li:hover,
+.footer ul li a:hover {
+    color: #fadcb3;
+    transform: scale(1.1);
+}
